@@ -22,4 +22,3 @@ obs: to do this Python need to be installed on your machine. to do that:
 - type: sudo apt-get install python3
 - Enter your password (you can’t see what you’re typing)
 - Done
-
