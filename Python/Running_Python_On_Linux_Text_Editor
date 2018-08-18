@@ -17,7 +17,7 @@ Python programs running on Linux native text editor
 
 
 
-obs: to do this gcc need to be installed on your machine. to do that:
+obs: to do this Python need to be installed on your machine. to do that:
 - Open the terminal
 - type: sudo apt-get install python3
 - Enter your password (you can’t see what you’re typing)
