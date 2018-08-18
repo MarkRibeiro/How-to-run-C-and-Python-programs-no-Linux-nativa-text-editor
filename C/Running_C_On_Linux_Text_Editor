@@ -24,4 +24,3 @@ obs: to do this gcc need to be installed on your machine. to do that:
 - type: sudo apt-get install gcc
 - Enter your password (you can’t see what you’re typing)
 - Done
-
