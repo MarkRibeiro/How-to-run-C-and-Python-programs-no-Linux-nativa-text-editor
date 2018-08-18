@@ -1,0 +1,5 @@
+cd /
+cd $GEDIT_CURRENT_DOCUMENT_DIR
+documentName=$GEDIT_CURRENT_DOCUMENT_NAME
+gcc -Wall -o ${documentName%.*} $documentName
+./${documentName%.*}

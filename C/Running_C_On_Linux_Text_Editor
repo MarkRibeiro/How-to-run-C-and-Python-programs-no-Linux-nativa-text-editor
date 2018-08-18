@@ -1,0 +1,26 @@
+C programs running on Linux native text editor
+
+- Open the Linux native text editor 
+- Go to "Preferences"
+- Go to the "Plugins" tab
+- Check the "External Tools" box, a new option will show below preferences called "Manage External Tools"
+- Go to "Manage External Tools”, on the bottom left corner of the window you will find a "+"
+- Click on the "+" an give it a name
+- Put this code in the command lines 
+	cd /
+	cd $GEDIT_CURRENT_DOCUMENT_DIR
+	documentName=$GEDIT_CURRENT_DOCUMENT_NAME
+	gcc -Wall -o ${documentName%.*} $documentName
+	./${documentName%.*}
+- Set up a shortcut key
+- Change the output to "Display in bottom pane"
+- In "applicability” change "All languages" to "C" 
+- DONE
+
+
+
+obs: to do this gcc need to be installed on your machine. to do that:
+- Open the terminal
+- type: sudo apt-get install gcc
+- Enter your password (you can’t see what you’re typing)
+- Done
